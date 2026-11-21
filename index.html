@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Our Strength in Diversity</title>
+<meta name="description" content="News and true stories about racism, microaggressions and bullying that foreign students and workers face, and what you can do next.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Cpath d='M104 104A88 88 0 0 0 16 16' fill='none' stroke='%23064A3E' stroke-width='14'/%3E%3Cpath d='M82 104A66 66 0 0 0 16 38' fill='none' stroke='%230B7A66' stroke-width='14'/%3E%3Cpath d='M60 104A44 44 0 0 0 16 60' fill='none' stroke='%232FB79B' stroke-width='14'/%3E%3Ccircle cx='16' cy='104' r='16' fill='%23F5A524'/%3E%3C/svg%3E">
+<style>
+:root{--bg:#F1F8F5;--surface:#fff;--ink:#10231F;--muted:#4A6660;--line:#D5E3DE;--brand:#0B7A66;--deep:#064A3E;--amber:#F5A524;--on-amber:#3A2600;--on-deep:#F1F8F5;--err:#9B2C2C;--m1:#064A3E;--display:'Space Grotesk','Inter',system-ui,sans-serif;--body:'Inter',system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root{--bg:#0A1B17;--surface:#10281F;--ink:#E9F3EF;--muted:#9DB8B0;--line:#244238;--brand:#2FB79B;--deep:#0F3A31;--err:#F29B9B;--m1:#F1F8F5;color-scheme:dark}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 var(--body)}
+a{color:var(--brand)}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance;line-height:1.15}
+p{margin:0}
+.in{max-width:1000px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left));padding-right:max(20px,env(safe-area-inset-right))}
+header.top{border-bottom:1px solid var(--line)}
+.bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding-block:18px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);font-family:var(--display);font-weight:700;font-size:20px;line-height:1.1}
+nav{display:flex;flex-wrap:wrap;gap:20px;font-size:15px;font-weight:500}
+nav a{text-decoration:none}
+.m1{stroke:var(--m1)}.m2{stroke:var(--brand)}.m3{stroke:#2FB79B}
+.hero{background:var(--deep);color:var(--on-deep);padding-block:88px}
+.hero .in{display:flex;flex-wrap:wrap;align-items:center;gap:48px}
+.hero .t{flex:1 1 460px;display:flex;flex-direction:column;gap:22px}
+.eyebrow{font-size:13px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--amber)}
+.eb2{color:var(--brand)}
+.hero h1{font-size:clamp(40px,8vw,70px);letter-spacing:-1px}
+.hero p{font-size:20px;max-width:560px}
+.btn{display:inline-block;padding:14px 28px;background:var(--amber);color:var(--on-amber);font-weight:600;text-decoration:none;border-radius:10px;border:0;font:inherit;font-weight:600;cursor:pointer}
+.hero .art{flex:0 1 260px;display:flex;justify-content:center}
+.hero a.l{color:var(--on-deep);margin-left:20px}
+section{padding-block:80px}
+section.alt{background:var(--surface)}
+.sec{display:flex;flex-direction:column;gap:36px}
+.sec h2{font-size:clamp(30px,5vw,44px);color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:var(--bg);border-radius:14px;padding:24px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.alt .card{background:var(--bg)}
+section:not(.alt) .card{background:var(--surface);border:1px solid var(--line)}
+.card h3{font-size:22px}
+.tag{font-size:12px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted)}
+.steps{display:flex;flex-direction:column;gap:16px;margin:0;padding:0;list-style:none;counter-reset:s}
+.steps li{display:flex;gap:16px;align-items:flex-start;counter-increment:s}
+.steps li::before{content:counter(s);flex:none;width:36px;height:36px;border-radius:50%;background:var(--deep);color:var(--on-deep);display:flex;align-items:center;justify-content:center;font-weight:600}
+.two{display:flex;flex-wrap:wrap;gap:48px}.two>*{flex:1 1 340px;min-width:0}
+.note{font-size:14px;color:var(--muted);font-weight:500}
+form{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:26px;display:flex;flex-direction:column;gap:16px;max-width:680px}
+label{font-weight:600;font-size:14px;display:flex;flex-direction:column;gap:6px}
+select,textarea,input[type=text]{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px 12px;width:100%}
+textarea{min-height:180px;resize:vertical}
+.ck{flex-direction:row;gap:10px;align-items:flex-start;font-weight:400}
+.ck input{margin-top:5px;width:18px;height:18px;flex:none;accent-color:var(--brand)}
+:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
+.row{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+.hp{position:absolute;left:-9999px;height:0;overflow:hidden}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+#msg{font-size:15px;font-weight:500;min-height:22px}
+#msg.err{color:var(--err)}
+.story{background:var(--bg);border-radius:14px;padding:22px;display:flex;flex-direction:column;gap:8px}
+.story p{white-space:pre-wrap}
+.empty{border:1px dashed var(--line);border-radius:14px;padding:24px;color:var(--muted)}
+footer{background:#0A1B17;color:#9DB8B0;padding-block:28px;font-size:14px}
+footer .in{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+footer b{color:#E9F3EF;font-weight:500}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header class="top"><div class="in bar">
+  <a class="logo" href="#top" aria-label="Our Strength in Diversity, home">
+    <svg width="44" height="44" viewBox="0 0 120 120" aria-hidden="true"><path class="m1" d="M104 104A88 88 0 0 0 16 16" fill="none" stroke-width="14"/><path class="m2" d="M82 104A66 66 0 0 0 16 38" fill="none" stroke-width="14"/><path class="m3" d="M60 104A44 44 0 0 0 16 60" fill="none" stroke-width="14"/><circle cx="16" cy="104" r="16" fill="#F5A524"/></svg>
+    <span>Our Strength<br>in Diversity</span>
+  </a>
+  <nav aria-label="Main"><a href="#where">Where it happens</a><a href="#publish">What we publish</a><a href="#help">What you can do</a><a href="#stories">Stories</a><a href="#share">Share your story</a></nav>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="in">
+  <div class="t">
+    <div class="eyebrow">By Study to Work</div>
+    <h1>Our Strength in Diversity</h1>
+    <p>News and true stories about the racism, microaggressions and bullying that foreign students and workers face, and what you can do next.</p>
+    <div><a class="btn" href="#share">Share your story</a><a class="l" href="#where">See where it happens</a></div>
+  </div>
+  <div class="art"><svg width="250" height="250" viewBox="0 0 120 120" role="img" aria-label="Three rising arcs around an amber sun"><path d="M104 104A88 88 0 0 0 16 16" fill="none" stroke="#F1F8F5" stroke-width="14"/><path d="M82 104A66 66 0 0 0 16 38" fill="none" stroke="#2FB79B" stroke-width="14"/><path d="M60 104A44 44 0 0 0 16 60" fill="none" stroke="#7FD6C2" stroke-width="14"/><circle cx="16" cy="104" r="16" fill="#F5A524"/></svg></div>
+</div></div>
+
+<section><div class="in two">
+  <h2 style="font-size:clamp(32px,5vw,48px)">You are not overreacting.</h2>
+  <div style="display:flex;flex-direction:column;gap:16px">
+    <p>Foreigners meet unfair treatment in classrooms, offices and everyday life. Much of it is quiet: a remark, a look, a rule applied to you and not to others.</p>
+    <p>This page makes it visible. We believe people who describe it, we check every news item we publish, and we always end with one step you can take.</p>
+    <p class="note">General information, not legal advice. Rules differ by place, so check yours.</p>
+  </div>
+</div></section>
+
+<section class="alt" id="where"><div class="in sec">
+  <div><div class="eyebrow eb2">Where it happens</div><h2>Four places, one pattern</h2></div>
+  <div class="grid">
+    <div class="card"><h3>Classroom and campus</h3><p>Professors, teachers and classmates. Doubts about your ability, a mocked accent, being left out of groups, and a power gap that makes it hard to speak up.</p></div>
+    <div class="card"><h3>Work</h3><p>Managers and colleagues. Being ignored in meetings, a name said wrong on purpose, being passed over, jokes about food or culture.</p></div>
+    <div class="card"><h3>Everyday life</h3><p>Neighbours, landlords, shop staff and strangers. "Where are you really from?", stares, and doors that suddenly close.</p></div>
+    <div class="card"><h3>Online</h3><p>Hateful messages, memes and group chats that leave you out. Save the evidence and report it on the platform.</p></div>
+  </div>
+</div></section>
+
+<section id="publish"><div class="in sec">
+  <div><div class="eyebrow eb2">What we publish</div><h2>Four kinds of posts, every week</h2></div>
+  <div class="grid">
+    <div class="card"><div class="tag">Monday</div><h3>News brief</h3><p>One verified development with its source linked.</p></div>
+    <div class="card"><div class="tag">Wednesday</div><h3>Name it</h3><p>One term explained with three everyday examples.</p></div>
+    <div class="card"><div class="tag">Friday</div><h3>Story</h3><p>An anonymous first-hand account, shared with consent.</p></div>
+    <div class="card"><div class="tag">Sunday</div><h3>What you can do</h3><p>General options after an incident, never legal advice.</p></div>
+  </div>
+  <p class="note">Our rule: no source, no post. We open and read every study or report, link it, and quote numbers exactly as written.</p>
+</div></section>
+
+<section class="alt" id="help"><div class="in two">
+  <div style="display:flex;flex-direction:column;gap:14px">
+    <div class="eyebrow eb2">What you can do</div><h2>After an incident</h2>
+    <p class="note">General information, not legal advice. Rules differ by place.</p>
+  </div>
+  <ol class="steps">
+    <li><p>Write down the date, place, words used and who saw it.</p></li>
+    <li><p>Save messages, emails and screenshots.</p></li>
+    <li><p>Tell one person you trust before you decide anything.</p></li>
+    <li><p>Find the complaint office or contact person where it happened, or a student or workers' union.</p></li>
+    <li><p>If you are in danger, call your local emergency services.</p></li>
+  </ol>
+</div></section>
+
+<section id="stories"><div class="in sec">
+  <div><div class="eyebrow eb2">Stories</div><h2>In their words</h2></div>
+  <!-- Editors: paste approved, anonymised stories into this list. Format: {c:"Classroom and campus", t:"Story text"} -->
+  <div id="wall" style="display:flex;flex-direction:column;gap:16px"></div>
+</div></section>
+
+<section class="alt" id="share"><div class="in sec">
+  <div><div class="eyebrow eb2">Share your story</div><h2>You decide how it appears.</h2></div>
+  <p style="max-width:640px">We ask for your consent, change names and remove details that could identify anyone. Please do not name the person who did it, and leave out all names and places, including yours. We never accuse anyone of a crime.</p>
+  <form id="f" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+    <label for="cat">Where did it happen?
+      <select id="cat" name="where"><option>Classroom and campus</option><option>Work</option><option>Everyday life</option><option>Online</option></select>
+    </label>
+    <label for="txt">Your story
+      <textarea id="txt" name="story" maxlength="2000" placeholder="What happened, and how did it feel? You can say what you did or wish you had done."></textarea>
+    </label>
+    <label for="contact">How can we reach you? (optional, only if you want a reply)
+      <input type="text" id="contact" name="contact" autocomplete="off">
+    </label>
+    <div class="hp" aria-hidden="true"><label>Leave empty<input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+    <label class="ck" for="ok"><input type="checkbox" id="ok" name="consent" value="yes"><span>I agree that an editor may shorten and anonymise my story and publish it on this site. I understand I can ask for it to be removed.</span></label>
+    <div class="row"><span class="note" id="cnt">0 / 2000</span><button class="btn" id="go" type="submit" disabled>Send for review</button></div>
+    <div id="msg" role="status"></div>
+  </form>
+  <p class="note">Nothing appears until an editor has read it. If you are in danger, call your local emergency services.</p>
+</div></section>
+</main>
+
+<footer><div class="in"><b>Our Strength in Diversity by Study to Work</b><span>Different roads. One community. General information, not legal advice.</span></div></footer>
+
+<script>
+(function(){
+  // Approved stories (add new ones at the top). Keep them anonymised.
+  var STORIES=[
+    // {c:"Classroom and campus", t:"Example text goes here."}
+  ];
+  var wall=document.getElementById('wall');
+  if(!STORIES.length){var e=document.createElement('div');e.className='empty';e.textContent='No stories published yet. Be the first to share yours.';wall.appendChild(e)}
+  STORIES.forEach(function(s){
+    var d=document.createElement('article');d.className='story';
+    var t=document.createElement('div');t.className='tag';t.textContent=s.c;
+    var p=document.createElement('p');p.textContent=s.t;
+    d.appendChild(t);d.appendChild(p);wall.appendChild(d);
+  });
+
+  var f=document.getElementById('f'),txt=document.getElementById('txt'),ok=document.getElementById('ok'),go=document.getElementById('go'),cnt=document.getElementById('cnt'),msg=document.getElementById('msg');
+  var configured=f.action.indexOf('YOUR_FORM_ID')===-1;
+  function sync(){cnt.textContent=txt.value.length+' / 2000';go.disabled=!(ok.checked&&txt.value.trim().length>=20)}
+  txt.addEventListener('input',sync);ok.addEventListener('change',sync);
+  function say(m,err){msg.textContent=m;msg.className=err?'err':''}
+  f.addEventListener('submit',function(ev){
+    ev.preventDefault();
+    if(go.disabled)return;
+    if(!configured){say('Sending is not switched on yet. Please check back soon.',true);return}
+    go.disabled=true;say('Sending…');
+    fetch(f.action,{method:'POST',body:new FormData(f),headers:{Accept:'application/json'}})
+      .then(function(r){if(!r.ok)throw 0;f.reset();sync();say('Thank you. Your story was sent and will appear only after an editor reviews it.')})
+      .catch(function(){say('Your story was not sent. Please try again.',true);sync()});
+  });
+})();
+</script>
+</body>
+</html>
